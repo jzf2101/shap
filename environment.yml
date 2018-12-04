@@ -1,0 +1,17 @@
+name: shap-env
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - tensorflow-gpu
+  - cudatoolkit=9.0
+  - pytorch
+  - torchvision
+  - shap
+  - numpy
+  - keras-gpu
+  - ipykernel
+  - pip:
+    - simdna
+    - deeplift
